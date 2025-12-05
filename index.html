@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PMS Travel &amp; Tours — Luxury Adventure</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@700;800&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Meta -->
+  <meta name="description" content="PMS Travel & Tours — curated luxury adventure trips (Land, Air, Sea). Personalized itineraries, premium partners, and hassle-free bookings.">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header id="top" class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="#top">PMS Travel &amp; Tours</a>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#packages">Packages</a>
+        <a href="#featured">Featured</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact" class="cta">Book Now</a>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+
+    <!-- HERO / SLIDER -->
+    <div class="hero">
+      <div class="slider" id="heroSlider" aria-roledescription="carousel">
+        <div class="slides">
+          <div class="slide" data-title="Luxury Adventure Escapes">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600&auto=format&fit=crop&q=80" alt="Mountain adventure at sunrise">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <h1>Luxury Adventure Begins Here</h1>
+              <p>High-end, personalized journeys across land, air, and sea—crafted for discerning travelers.</p>
+              <div class="hero-ctas">
+                <a href="#packages" class="btn">Explore Packages</a>
+                <a href="#contact" class="btn outline">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide" data-title="Pristine Sea & Islands">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&auto=format&fit=crop&q=80" alt="Luxury yacht at sea">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <h1>Pristine Sea & Island Journeys</h1>
+              <p>Private yachts, island-hopping, and bespoke marine experiences with VIP service.</p>
+              <div class="hero-ctas">
+                <a href="#packages" class="btn">Sea Packages</a>
+                <a href="#contact" class="btn outline">Request Quote</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide" data-title="Exclusive Land Expeditions">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600&auto=format&fit=crop&q=80" alt="Road trip through rugged landscape">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <h1>Exclusive Land Expeditions</h1>
+              <p>Private guides, cultural immersion, and luxury lodges for unforgettable land journeys.</p>
+              <div class="hero-ctas">
+                <a href="#packages" class="btn">Land Packages</a>
+                <a href="#contact" class="btn outline">Plan Your Trip</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider-arrow prev" id="prevSlide" aria-label="Previous slide">‹</button>
+        <button class="slider-arrow next" id="nextSlide" aria-label="Next slide">›</button>
+        <div class="slider-dots" id="sliderDots" role="tablist" aria-hidden="false"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- About -->
+    <section id="about" class="section container">
+      <div class="two-col">
+        <div class="col">
+          <h2>About PMS Travel &amp; Tours</h2>
+          <p><strong>PMS Travel and Tours Agency</strong> is an adventure travel agency for discerning clients seeking high-end, personalized, and hassle-free vacations. We specialize in curating unique and luxury experiences — from hard-adventure sports to cultural excursions. Our expertise in adventure travel, combined with competitive rates for luxury accommodations and activities, translates into increased customer satisfaction and a premium travel experience.</p>
+
+          <ul class="features">
+            <li><strong>Tailor-made Itineraries</strong> — Crafted around your interests.</li>
+            <li><strong>Luxury Partners</strong> — Boutique hotels, private transfers, vetted operators.</li>
+            <li><strong>24/7 Support</strong> — Assistance before, during, and after your trip.</li>
+          </ul>
+        </div>
+
+        <div class="col image-grid">
+          <img src="https://plus.unsplash.com/premium_photo-1683921220194-874389c0ca42?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Luxury lodge">
+          <img src="https://plus.unsplash.com/premium_photo-1723921232154-574f9172f3f4?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cultural excursion">
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages (Land, Air, Sea) -->
+    <section id="packages" class="section bg-alt">
+      <div class="container">
+        <h2>Our Offerings</h2>
+        <p class="lead">Choose the type of journey you want — Land, Air, or Sea. Each package is customizable and designed for comfort and discovery.</p>
+
+        <div class="pack-grid">
+          <article class="pack-card" id="air">
+            <div class="pack-image" style="background-image:url('https://images.unsplash.com/photo-1698237551065-15d1f6616e84?q=80&w=725&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+            <div class="pack-body">
+              <h3>Air-Based Adventures</h3>
+              <p>Comfortable air travel options, city escapes, and curated flight + hotel packages.</p>
+              <a href="#featured" class="btn small">View Air</a>
+            </div>
+          </article>
+
+          <article class="pack-card" id="land">
+            <div class="pack-image" style="background-image:url('https://images.unsplash.com/photo-1642344061678-f1cdba55dcb6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+            <div class="pack-body">
+              <h3>Land-Based Expeditions</h3>
+              <p>Guided treks, private road trips, cultural tours, and boutique lodge stays.</p>
+              <a href="#featured" class="btn small">View Land</a>
+            </div>
+          </article>
+
+          <article class="pack-card" id="sea">
+            <div class="pack-image" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=70');"></div>
+            <div class="pack-body">
+              <h3>Sea-Based Getaways</h3>
+              <p>Yacht charters, island hopping, diving packages, and exclusive marine experiences.</p>
+              <a href="#featured" class="btn small">View Sea</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured packages -->
+    <section id="featured" class="section container">
+      <h2>Featured Packages</h2>
+        <div class="selector">
+            <label for="package-type">Select Package Type:</label>
+            <select id="package-type">
+                <option value="Air">Air-Based</option>
+                <option value="Land">Land-Based</option>
+                <option value="Sea">Sea-Based</option>
+            </select>
+        </div>
+        <div id="packages-table">
+            <!-- Table populated by JS -->
+        </div>
+    </section>
+    <!-- Modal for booking -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-form-content"></div>
+        </div>
+    </div>
+
+    <!-- Why choose us -->
+    <section class="section bg-alt">
+      <div class="container small">
+        <h2>Why Book With Us</h2>
+        <div class="why-grid">
+          <div class="why">
+            <strong>Personalized Luxury</strong>
+            <p>Every trip is tailored for your comfort and sense of adventure.</p>
+          </div>
+          <div class="why">
+            <strong>Trusted Partners</strong>
+            <p>We work with vetted operators and boutique hotels worldwide.</p>
+          </div>
+          <div class="why">
+            <strong>Safety & Support</strong>
+            <p>Professional guides, insured activities, and 24/7 assistance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section container">
+      <h2>Client Testimonials</h2>
+      <div class="testimonials-grid">
+        <blockquote>
+          <p>“PMS created a perfect blend of thrill and comfort. The guides and hotels were exceptional.”</p>
+          <cite>— Ana G.</cite>
+        </blockquote>
+
+        <blockquote>
+          <p>“From booking to return, everything was seamless. Their attention to detail is outstanding.”</p>
+          <cite>— Michael K.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Contact / Booking -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Contact & Booking</h2>
+        <p class="lead">Tell us about your dream trip. We'll craft a proposal with pricing and details.</p>
+
+        <div class="two-col">
+          <div class="col">
+            <form id="contactForm" class="form" action="https://formspree.io/f/YOURENDPOINT" method="POST">
+              <!-- replace the action with your actual Formspree endpoint -->
+              <label for="name">Full name</label>
+              <input id="name" name="name" required>
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required>
+
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" placeholder="+63...">
+
+              <label for="tripType">Trip type</label>
+              <select id="tripType" name="tripType" required>
+                <option value="">--Choose--</option>
+                <option>Air-Based</option>
+                <option>Land-Based</option>
+                <option>Sea-Based</option>
+              </select>
+
+              <label for="date">Preferred date</label>
+              <input id="date" name="date" type="date">
+
+              <label for="message">Message / Requests</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us your ideal trip..."></textarea>
+
+              <button type="submit" class="btn">Send Inquiry</button>
+
+              <p class="muted">We respect your privacy. We will reply within 24–48 hours.</p>
+            </form>
+          </div>
+
+          <div class="col">
+            <div class="contact-info card">
+              <h3>Get in touch</h3>
+              <p><strong>Email:</strong> <a href="mailto:info@pmstravel.example">info@pmstravel.example</a></p>
+              <p><strong>Phone:</strong> +63 912 345 6789</p>
+              <p><strong>Office:</strong> Manila, Philippines</p>
+              <div class="socials">
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Facebook">Facebook</a>
+              </div>
+            </div>
+
+            <div class="trust card">
+              <h4>Secure Payment & Trusted Partners</h4>
+              <p>We collaborate with premium suppliers and secure payment gateways. Travel with confidence.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container small">
+      <div class="footer-inner">
+        <div>
+          <strong>PMS Travel &amp; Tours</strong>
+          <div class="muted">Luxury Adventure • Land • Air • Sea</div>
+        </div>
+        <div class="muted">&copy; <span id="year"></span> PMS Travel &amp; Tours. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
